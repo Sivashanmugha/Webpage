@@ -1,0 +1,106 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  background-clip: content-box;
+
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+background-image:url(imgs/OIP.jpg);
+  background-size:cover;
+  background-repeat: no-repeat; 
+  color: #fff;
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  padding: 100px 0;
+  margin 0;
+}
+
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.gallery {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.photo {
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+}
+
+.about {
+  padding: 50px 0;
+}
+
+.contact {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+.photo img {
+  width: 100%;
+  height: fit-content;
+  transition: transform 0.3s ease; 
+}
+
+.photo:hover img {
+  transform: scale(1.1); 
+}
+
+
